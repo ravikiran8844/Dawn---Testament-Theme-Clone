@@ -84,6 +84,7 @@
       "settings": {
         "title": "Collections",
         "heading_size": "h1",
+        "text-alignment": "center",
         "image_ratio": "square",
         "columns_desktop": 3,
         "color_scheme": "background-1",
@@ -290,7 +291,7 @@
         "template--17428778680620__40d2cdbb-9d79-46cf-b597-1caf32d4bd46-1672731173062ff59a-2"
       ],
       "settings": {
-        "color_scheme": "background-2",
+        "color_scheme": "accent-1",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
