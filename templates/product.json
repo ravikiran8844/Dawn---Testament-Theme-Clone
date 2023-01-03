@@ -195,12 +195,43 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "e9cd7259-f6e7-4f10-aeca-ddd6acbe148c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17429204631852__e9cd7259-f6e7-4f10-aeca-ddd6acbe148c-16727649167448fab5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>We are here to help!<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--17429204631852__e9cd7259-f6e7-4f10-aeca-ddd6acbe148c-16727649167448fab5-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Stuck, not sure or just have some general questions? Our excellent customer support team is here to help with any questions that you might have!<\/p><p>With <strong>Free Support<\/strong> and <strong>Free updates<\/strong> to all future theme versions, your one time theme purchase is a sound investment in the future of your business.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17429204631852__e9cd7259-f6e7-4f10-aeca-ddd6acbe148c-16727649167448fab5-0",
+        "template--17429204631852__e9cd7259-f6e7-4f10-aeca-ddd6acbe148c-16727649167448fab5-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "1672738076c67fa1bc",
     "product-recommendations",
-    "55eb783e-8539-48ff-84b4-ef35f7df0900"
+    "55eb783e-8539-48ff-84b4-ef35f7df0900",
+    "e9cd7259-f6e7-4f10-aeca-ddd6acbe148c"
   ]
 }
