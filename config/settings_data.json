@@ -147,7 +147,7 @@
           "color_scheme": "background-1",
           "logo": "shopify:\/\/shop_images\/testament-alt-logo_600x_9f3c217b-56a7-48cf-8e43-995ffe725709.jpg",
           "logo_width": 250,
-          "logo_position": "middle-center",
+          "logo_position": "top-center",
           "menu": "main-menu",
           "menu_type_desktop": "dropdown",
           "show_line_separator": true,
