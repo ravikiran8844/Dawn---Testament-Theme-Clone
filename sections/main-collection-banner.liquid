@@ -31,6 +31,8 @@
 
     {%- if section.settings.show_collection_image and collection.image -%}
       <div class="collection-hero__image-container media gradient order-1">
+        {% assign desktop_image = collection.metafields.custom.mobile_banner | default: collection.image %}
+                {% render 'image', mobileSrc: collection.image, desktopSrc: desktop_image %}
         <img
           srcset="{%- if collection.image.width >= 165 -%}{{ collection.image | image_url: width: 165 }} 165w,{%- endif -%}
             {%- if collection.image.width >= 360 -%}{{ collection.image | image_url: width: 360 }} 360w,{%- endif -%}
