@@ -154,11 +154,53 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "55eb783e-8539-48ff-84b4-ef35f7df0900": {
+      "type": "collection-list",
+      "blocks": {
+        "template--17429204631852__55eb783e-8539-48ff-84b4-ef35f7df0900-1672764798d5376870-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "skirts"
+          }
+        },
+        "template--17429204631852__55eb783e-8539-48ff-84b4-ef35f7df0900-1672764798d5376870-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "tops"
+          }
+        },
+        "template--17429204631852__55eb783e-8539-48ff-84b4-ef35f7df0900-1672764798d5376870-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dresses"
+          }
+        }
+      },
+      "block_order": [
+        "template--17429204631852__55eb783e-8539-48ff-84b4-ef35f7df0900-1672764798d5376870-0",
+        "template--17429204631852__55eb783e-8539-48ff-84b4-ef35f7df0900-1672764798d5376870-1",
+        "template--17429204631852__55eb783e-8539-48ff-84b4-ef35f7df0900-1672764798d5376870-2"
+      ],
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "text-alignment": "center",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "1672738076c67fa1bc",
-    "product-recommendations"
+    "product-recommendations",
+    "55eb783e-8539-48ff-84b4-ef35f7df0900"
   ]
 }
