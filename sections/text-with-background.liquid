@@ -1,0 +1,114 @@
+{% if section.settings.heading!=blank and section.settings.subheading!=blank %}
+    <div class="text-card text-{{section.id}}">
+        <div class="text-card__heading">
+            {{section.settings.heading}}
+        </div>
+        <div class="subheading-card">
+          <div class="text-card__subheading">{{section.settings.subheading}}</div>
+            {% if section.settings.button_label_1!=blank %}
+            <div>
+                <button class="text-card__button">{{section.settings.button_label_1}}</button>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+{% endif %}
+
+<style>
+    .text-{{section.id}}{
+        background-color:{{section.settings.bg_color}};
+      line-height: normal;
+            color:#000000;
+
+
+    }
+  .text-card{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:1rem;
+  }
+  .text-card__heading{
+    font-size:4rem;
+    
+  }
+    .text-card__subheading{
+    font-size:2rem;
+  }
+  .subheading-card{
+    padding:2rem;
+  }
+  .text-card__button{
+    padding:1.3rem 2rem;
+    background-color:transparent;
+    cursor:pointer;
+  }
+  .text-card__button:hover{
+    padding:1.3rem 2rem;
+    background-color:black;
+    color:white;
+        cursor:pointer;
+
+  }
+
+
+  @media (max-width:750px){
+    .text-card{
+      flex-direction:column;
+      margin-bottom:0px;
+    }
+    .subheading-card{
+      text-align:center;
+    }
+     .text-card__button{
+    padding:1.3rem 2rem;
+    background-color:transparent;
+    cursor:pointer;
+  }
+     .text-card__button:hover{
+    padding:1.3rem 2rem;
+    background-color:black;
+    color:white;
+        cursor:pointer;
+  }
+</style>
+
+
+
+
+
+
+{% schema %}
+  {
+    "name": "Text with Background",
+    "class":"section",
+    "tag":"section",
+    "settings": [{"type":"richtext",
+      "id":"heading",
+      "label":"Heading",
+            "default":"<p>Heading Text</p>"
+    },
+    {"type":"richtext",
+      "id":"subheading",
+      "label":"Subeading",
+            "default":"<p>Subheading Text</p>"
+    },{
+            "type": "color",
+            "id": "bg_color",
+            "label": "Background Color"
+        },{
+          "type": "text",
+          "id": "button_label_1",
+          "default": "Button label",
+          "label": "t:sections.image-banner.blocks.buttons.settings.button_label_1.label",
+          "info": "t:sections.image-banner.blocks.buttons.settings.button_label_1.info"
+        },
+        {
+          "type": "url",
+          "id": "button_link_1",
+          "label": "t:sections.image-banner.blocks.buttons.settings.button_link_1.label"
+        }],"presets": [{  "name": "Text with Background"
+        
+    }]
+  }
+{% endschema %}
