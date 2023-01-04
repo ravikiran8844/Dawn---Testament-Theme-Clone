@@ -144,7 +144,7 @@
       "header": {
         "type": "header",
         "settings": {
-          "color_scheme": "inverse",
+          "color_scheme": "accent-2",
           "logo": "shopify:\/\/shop_images\/testament-alt-logo_600x_9f3c217b-56a7-48cf-8e43-995ffe725709.jpg",
           "logo_width": 250,
           "logo_position": "top-center",
