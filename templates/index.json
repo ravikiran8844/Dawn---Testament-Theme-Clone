@@ -296,6 +296,64 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "aa63f455-59c7-4099-84f2-55724dd36b4f": {
+      "type": "testimonial",
+      "blocks": {
+        "1aef39ca-a54c-4d3f-988a-72bba1ac724f": {
+          "type": "testimonial_item",
+          "settings": {
+            "author_image": "shopify:\/\/shop_images\/210225LiliStudio15069_540x_d020cad2-b1db-4d52-8c27-238e9e1c5085.jpg",
+            "caption": "<p>I love this!<\/p>",
+            "rating": "5",
+            "text": "<p>The Ceejay playsuit has become one of my favorite things to wear.<\/p><p>Need to buy another just in case!<\/p>",
+            "author_name": "Annie, New Zealand"
+          }
+        },
+        "c905bbcb-520c-4565-a76d-fd3a1aa9c9ae": {
+          "type": "testimonial_item",
+          "settings": {
+            "author_image": "shopify:\/\/shop_images\/tops_1512x_d8d728b5-95d2-49c9-ab72-94e03803c25e.jpg",
+            "caption": "<p>Really great support<\/p>",
+            "rating": "5",
+            "text": "<p>I had a few problems with a delivery<\/p><p>and the support team were so helpful, whata difference!<\/p>",
+            "author_name": "Christine, New Hampshire"
+          }
+        },
+        "dd36609e-f578-4105-a628-1f1199bfa664": {
+          "type": "testimonial_item",
+          "settings": {
+            "author_image": "shopify:\/\/shop_images\/20_11_12NatStudio28473_800x_fe879af0-c627-4d7a-95d2-6d78e1fdacb6.jpg",
+            "caption": "<p>Fits perfectly!<\/p>",
+            "rating": "5",
+            "text": "<p>I was a little worried at first but needn't have been!<\/p><p>I love how this fits and really pleased with the quality.<\/p>",
+            "author_name": "Joanne, Missouri"
+          }
+        },
+        "34ec3006-a8c2-42bd-a80a-0fba295d7cf5": {
+          "type": "testimonial_item",
+          "settings": {
+            "author_image": "shopify:\/\/shop_images\/hong-nguyen-J4TEzb9mb3A-unsplash_540x_69398de4-cc44-4887-a89c-06f2a0ddc4ad.webp",
+            "caption": "<p>So many beautiful tops!<\/p>",
+            "rating": "5",
+            "text": "<p>I have just received my 5th order!<\/p><p>Won't be long before I place another, love your products!<\/p>",
+            "author_name": "Jane, Rhode Island"
+          }
+        }
+      },
+      "block_order": [
+        "1aef39ca-a54c-4d3f-988a-72bba1ac724f",
+        "c905bbcb-520c-4565-a76d-fd3a1aa9c9ae",
+        "dd36609e-f578-4105-a628-1f1199bfa664",
+        "34ec3006-a8c2-42bd-a80a-0fba295d7cf5"
+      ],
+      "settings": {
+        "subheading": "",
+        "heading": "",
+        "background_color": "#fdf7f1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -307,6 +365,7 @@
     "featured_collection",
     "collage",
     "fef18759-1de7-447d-9c64-05d5ba598f92",
-    "40d2cdbb-9d79-46cf-b597-1caf32d4bd46"
+    "40d2cdbb-9d79-46cf-b597-1caf32d4bd46",
+    "aa63f455-59c7-4099-84f2-55724dd36b4f"
   ]
 }
