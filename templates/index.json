@@ -29,7 +29,7 @@
             "heading_size": "h1",
             "subheading": "Explore the latest range",
             "button_label": "Shop Latest",
-            "link": "",
+            "link": "shopify:\/\/collections",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,
