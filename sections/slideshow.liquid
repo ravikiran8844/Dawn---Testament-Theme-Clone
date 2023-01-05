@@ -2,9 +2,28 @@
 {{ 'component-slider.css' | asset_url | stylesheet_tag }}
 {{ 'component-slideshow.css' | asset_url | stylesheet_tag }}
 
-
 {%- if section.settings.slide_height == 'adapt_image' and section.blocks.first.settings.image != blank -%}
   {%- style -%}
+  {%  for block in section.blocks %}  
+  .slide-button--{{block.id}}{
+    background-color:{{block.settings.button-background-color}};
+    color:{{block.settings.button-text-color}};
+    border:2px solid {{block.settings.button-background-color}};
+    border-radius:3px;
+    font-weight:500;
+    padding: 10px 20px;
+      text-decoration:none;
+  }
+  .slide-button--{{block.id}}:hover{
+    background-color:transparent;
+    color:{{block.settings.button-background-color}};
+    border:2px solid {{block.settings.button-background-color}};
+    border-radius:3px;
+    font-weight:500;
+    padding: 10px 20px;
+      text-decoration:none;
+  }
+  {% endfor %}
   @media screen and (max-width: 749px) {
     #Slider-{{ section.id }}::before,
     #Slider-{{ section.id }} .media::before,
@@ -114,7 +133,7 @@
             {%- endif -%}
             {%- if block.settings.button_label != blank -%}
               <div class="banner__buttons">
-                <a{% if block.settings.link %} href="{{ block.settings.link }}"{% else %} role="link" aria-disabled="true"{% endif %} class="button {% if block.settings.button_style_secondary %}button--secondary{% else %}button--primary{% endif %}">{{ block.settings.button_label | escape }}</a>
+                <a{% if block.settings.link %} href="{{ block.settings.link }}"{% else %} role="link" aria-disabled="true"{% endif %} class="slide-button slide-button--{{block.id}} {% if block.settings.button_style_secondary %}button--secondary{% else %}button--primary{% endif %}">{{ block.settings.button_label | escape }}</a>
               </div>
             {%- endif -%}
           </div>
@@ -315,6 +334,14 @@
           "id": "subheading",
           "default": "Tell your brand's story through images",
           "label": "t:sections.slideshow.blocks.slide.settings.subheading.label"
+        },{
+"type": "color",
+"id": "button-text-color",
+"label": "Button Text Color"
+        },{
+"type": "color",
+"id": "button-background-color",
+"label": "Button Background Color"
         },
         {
           "type": "text",
