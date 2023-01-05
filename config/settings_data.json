@@ -139,6 +139,7 @@
           "announcement-bar-0"
         ],
         "settings": {
+          "show_social": true
         }
       },
       "header": {
