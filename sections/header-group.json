@@ -2,19 +2,45 @@
   "type": "header",
   "name": "Header Group",
   "sections": {
+    "announcment-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "fe5df472-28bc-47a0-a84c-5172316fc575": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "text_alignment": "center",
+            "color_scheme": "accent-1",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "fe5df472-28bc-47a0-a84c-5172316fc575"
+      ],
+      "settings": {
+        "show_social": true
+      }
+    },
     "header": {
       "type": "header",
       "settings": {
-      }
-    },
-    "announcment-bar": {
-      "type": "announcement-bar",
-      "settings": {
+        "color_scheme": "background-1",
+        "logo_width": 100,
+        "logo_position": "middle-left",
+        "menu": "main-menu",
+        "menu_type_desktop": "dropdown",
+        "show_line_separator": true,
+        "enable_sticky_header": true,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     }
   },
   "order": [
-    "header",
-    "announcment-bar"
+    "announcment-bar",
+    "header"
   ]
 }
