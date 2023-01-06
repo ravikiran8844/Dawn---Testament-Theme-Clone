@@ -4,7 +4,45 @@
   "sections": {
     "footer": {
       "type": "footer",
+      "blocks": {
+        "37b41661-6e56-447d-b19d-a1e49be119a1": {
+          "type": "text",
+          "settings": {
+            "heading": "Heading",
+            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+          }
+        },
+        "d7b85bad-00f5-4f22-96bc-87097d955961": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "footer"
+          }
+        },
+        "577bc745-6d73-406e-98df-d2f1da11a0cf": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "footer"
+          }
+        }
+      },
+      "block_order": [
+        "37b41661-6e56-447d-b19d-a1e49be119a1",
+        "d7b85bad-00f5-4f22-96bc-87097d955961",
+        "577bc745-6d73-406e-98df-d2f1da11a0cf"
+      ],
       "settings": {
+        "color_scheme": "inverse",
+        "newsletter_enable": true,
+        "newsletter_heading": "Subscribe to our emails",
+        "show_social": true,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "payment_enable": true,
+        "margin_top": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
