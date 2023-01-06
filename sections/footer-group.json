@@ -25,12 +25,20 @@
             "heading": "Quick links",
             "menu": "footer"
           }
+        },
+        "7214efd7-1c01-4502-83c7-10f6db48770f": {
+          "type": "text",
+          "settings": {
+            "heading": "Heading",
+            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+          }
         }
       },
       "block_order": [
         "37b41661-6e56-447d-b19d-a1e49be119a1",
         "d7b85bad-00f5-4f22-96bc-87097d955961",
-        "577bc745-6d73-406e-98df-d2f1da11a0cf"
+        "577bc745-6d73-406e-98df-d2f1da11a0cf",
+        "7214efd7-1c01-4502-83c7-10f6db48770f"
       ],
       "settings": {
         "color_scheme": "inverse",
