@@ -121,6 +121,7 @@
     "cart_type": "drawer",
     "show_vendor": true,
     "show_cart_note": true,
+    "cart_drawer_collection": "new-arrivals",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
