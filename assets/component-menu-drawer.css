@@ -159,7 +159,7 @@ details[open].menu-opening > .menu-drawer__submenu {
 }
 
 .menu-drawer__menu-item--active:hover {
-  background-color: rgba(var(--color-foreground), 0.08);
+  background-color: white;
 }
 
 .js .menu-drawer__menu-item .icon-caret,
