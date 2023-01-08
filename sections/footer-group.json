@@ -28,6 +28,7 @@
         },
         "7214efd7-1c01-4502-83c7-10f6db48770f": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "heading": "Heading",
             "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
