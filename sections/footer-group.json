@@ -8,14 +8,14 @@
         "37b41661-6e56-447d-b19d-a1e49be119a1": {
           "type": "text",
           "settings": {
-            "heading": "Heading",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+            "heading": "About",
+            "subtext": "<p>Testament is an OS2 Ready Shopify theme with full support for Sections Everywhere.<\/p>"
           }
         },
         "d7b85bad-00f5-4f22-96bc-87097d955961": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
+            "heading": "Shop",
             "menu": "footer"
           }
         },
