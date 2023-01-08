@@ -13,6 +13,7 @@
     font-weight:500;
     padding: 10px 20px;
       text-decoration:none;
+      min-width:122.44px;
   }
   .slide-button--{{block.id}}:hover{
     background-color:transparent;
@@ -134,7 +135,9 @@
             {%- if block.settings.button_label != blank -%}
               <div class="banner__buttons">
                 <a{% if block.settings.link %} href="{{ block.settings.link }}"{% else %} role="link" aria-disabled="true"{% endif %} class="slide-button slide-button--{{block.id}} {% if block.settings.button_style_secondary %}button--secondary{% else %}button--primary{% endif %}">{{ block.settings.button_label | escape }}</a>
-              </div>
+              <a{% if block.settings.button2_link %} href="{{ block.settings.button2_link }}"{% else %} role="link" aria-disabled="true"{% endif %} class="slide-button slide-button--{{block.id}} {% if block.settings.button_style_secondary %}button--secondary{% else %}button--primary{% endif %}">{{ block.settings.button2_label | escape }}</a>
+
+                </div>
             {%- endif -%}
           </div>
         </div>
@@ -353,6 +356,17 @@
         {
           "type": "url",
           "id": "link",
+          "label": "t:sections.slideshow.blocks.slide.settings.link.label"
+        },
+        {
+          "type": "text",
+          "id": "button2_label",
+          "label": "t:sections.slideshow.blocks.slide.settings.button_label.label",
+          "info": "t:sections.slideshow.blocks.slide.settings.button_label.info"
+        },
+        {
+          "type": "url",
+          "id": "button2_link",
           "label": "t:sections.slideshow.blocks.slide.settings.link.label"
         },
         {
